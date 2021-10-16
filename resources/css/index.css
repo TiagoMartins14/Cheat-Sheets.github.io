@@ -111,6 +111,7 @@ li {
   font-family: 'Roboto Mono';
 }
 
-footer {
+footer p{
   font-style: italic;
+  text-align: center;
 }
