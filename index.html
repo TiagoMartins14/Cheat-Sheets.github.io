@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <title>Cheat Sheet</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Padding and Margin</h1>
+    </header>
+    <main>
+        <h2><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding" target="_blank" class="url">Padding</a> creates an extra space <span class="underline">within</span> an element.</h2>
+        <h2><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin" target="_blank" class="url">Margin</a> creates spacing <span class="underline">around</span> an element.</h2>
+        <ul>
+            <li>When <span class="bold">one</span> value is specified, it applies the same padding to <span class="bold">all four sides</span>.</li>
+            <li>When <span class="bold">two</span> values are specified, the first padding applies to the <span class="bold">top and bottom</span>, the second to the <span class="bold">left and right</span>.</li>
+            <li>When <span class="bold">three</span> values are specified, the first padding applies to the <span class="bold">top, the second to the <span class="bold">right and left</span>, the third to the <span class="bold">bottom</span>.</li>
+            <li>When <span class="bold">four</span> values are specified, the paddings apply to the <span class="bold">top, right, bottom, and left</span> in that order (clockwise).</li>
+        </ul>
+        <h3>Padding Examples</h3>
+        <div class="examples-pad">
+            <p class="comment">/* Apply to all four sides */</p>
+            <p class="coding"><span class="red">padding</span><span class="punctuation">:</span> 1em<span class="punctuation">;</span></p>
+            <br>
+            <p class="comment">/* vertical | horizontal */</p>
+            <p class="coding"><span class="red">padding</span><span class="punctuation">:</span> 5% 10%<span class="punctuation">;</span></p>
+            <br>
+            <p class="comment">/* top | horizontal | bottom */</p>
+            <p class="coding"><span class="red">padding</span><span class="punctuation">:</span> 1em 2em 2em<span class="punctuation">;</span></p>
+            <br>
+            <p class="comment">/* top | right | bottom | left */</p>
+            <p class="coding"><span class="red">padding</span><span class="punctuation">:</span> 5px 1em 0 2em<span class="punctuation">;</span></p>
+            <br>    
+            <p class="comment">/* Global values */</p>
+            <p class="coding"><span class="red">padding</span><span class="punctuation">:</span> inherit<span class="punctuation">;</span></p>
+            <p class="coding"><span class="red">padding</span><span class="punctuation">:</span> initial<span class="punctuation">;</span></p>
+            <p class="coding"><span class="red">padding</span><span class="punctuation">:</span> revert<span class="punctuation">;</span></p>
+            <p class="coding"><span class="red">padding</span><span class="punctuation">:</span> unset<span class="punctuation">;</span></p>
+        </div>
+        <h3 class="right-side">Margin Examples</h3>
+        <div class="examples-mar">
+            <p class="comment">/* Apply to all four sides */</p>
+            <p class="coding"><span class="red">margin</span><span class="punctuation">:</span> 1em<span class="punctuation">;</span></p>
+            <p class="coding"><span class="red">margin</span><span class="punctuation">:</span> -3px<span class="punctuation">;</span></P>
+            <br>
+            <p class="comment">/* vertical | horizontal */</p>
+            <p class="coding"><span class="red">margin</span><span class="punctuation">:</span> 5% auto<span class="punctuation">;</span></p>
+            <br>
+            <p class="comment">/* top | horizontal | bottom */</p>
+            <p class="coding"><span class="red">margin</span><span class="punctuation">:</span> 1em auto 2em<span class="punctuation">;</span></p>
+            <br>
+            <p class="comment">/* top | right | bottom | left */</p>
+            <p class="coding"><span class="red">margin</span><span class="punctuation">:</span> 2px 1em 0 auto<span class="punctuation">;</span></p>
+            <br>
+            <p class="comment">/* Global values */</p>
+            <p class="coding"><span class="red">margin</span><span class="punctuation">:</span> inherit<span class="punctuation">;</span></p>
+            <p class="coding"><span class="red">margin</span><span class="punctuation">:</span> initial<span class="punctuation">;</span></p>
+            <p class="coding"><span class="red">margin</span><span class="punctuation">:</span> revert<span class="punctuation">;</span></p>
+            <p class="coding"><span class="red">margin</span><span class="punctuation">:</span> unset<span class="punctuation">;</span></p>
+        </div>
+
+        <!-- Future project: create some text beside each box woth comentaries or sugestions -->
+
+        <footer>
+            <p>Designed by Tiago Martins &#8482</p>
+        </footer>
+    </main>
+
+</body>
